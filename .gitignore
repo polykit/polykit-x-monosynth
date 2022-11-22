@@ -29,3 +29,4 @@ fp-info-cache
 *.csv
 
 /polykit-x-monosynth-backups
+/frontpanel/frontpanel-backups

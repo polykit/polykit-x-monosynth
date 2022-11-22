@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "6.0.6-3a73a75311~116~ubuntu21.10.1"
+      "Version": "6.0.9-8da3e8f707~116~ubuntu22.04.1"
     },
-    "CreationDate": "2022-09-23T00:03:15+02:00"
+    "CreationDate": "2022-11-22T22:51:57+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "polykit-x-monosynth",
       "GUID": "706f6c79-6b69-4742-9d78-2d6d6f6e6f73",
-      "Revision": "v0.0.2"
+      "Revision": "v0.0.3"
     },
     "Size": {
       "X": 200.1,
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.25,
       "TrackToRegion": 0.508,
