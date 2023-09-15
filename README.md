@@ -28,6 +28,10 @@ Video playlist on its functionality and design process: https://www.youtube.com/
 
 ![Polykit X1 Semi Modular Synthesizer](polykit-x1-finished.jpg)
 
+![Polykit X1 Semi Modular Synthesizer Rendering](polykit-x-monosynth-rendering.png)
+
+![Polykit X1 Semi Modular Synthesizer Case](polykit-x-monosynth-case.png)
+
 Gerber files [can be found here](plots/), front panel files are located [here](frontpanel).
 
 ## BOM
@@ -38,7 +42,7 @@ Gerber files [can be found here](plots/), front panel files are located [here](f
 |C3, C4                                                                                                                                                   |2   |100uF              |C_Polarized           |Electrolytic capacitor                                                     |
 |C5, C6                                                                                                                                                   |2   |10uF               |C_Polarized           |Electrolytic capacitor                                                     |
 |C7, C8                                                                                                                                                   |2   |1uF                |C_Polarized           |Electrolytic capacitor                                                     |
-|C9                                                                                                                                                       |1   |2u2 NP             |C                     |Film or ceramic capacitor                                                   |
+|C9                                                                                                                                                       |1   |2u2 non-polarized |C                     |Film or ceramic capacitor                                                   |
 |C10, C11, C12, C13, C14                                                                                                                                  |5   |100n               |C                     |Ceramic capacitor                                                   |
 |D1                                                                                                                                                       |1   |LED                |LED                   |Light emitting diode                                                    |
 |D2, D3                                                                                                                                                   |2   |US1G               |US1G                  |400V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)                |
