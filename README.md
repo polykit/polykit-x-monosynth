@@ -122,8 +122,14 @@ Gerber files [can be found here](plots/), front panel files are located [here](f
 
 See voice card repository for details on tuning. Additional male/female dupont cables are needed in order to get access to the trimpots. Minimal set of connections are ground, all four voltages, PITCH, PWM, ADSR_*, GATE, LVL2, FREQ_CV and outputs.
 
+## Modifications
+
+`SAW` output of the oscillator can be added to `MIX IN2` default input via a 1k resistor, eg. by tapping into the signal between `R1` and `U6` pin 8 on the voice card.
+
 ## References
 
-https://github.com/polykit/polykit-x-voice-card
+Voice Card: https://github.com/polykit/polykit-x-voice-card
 
-https://www.elby-designs.com/webtek/cgs/cgs52/cgs52_folder.html
+Footprints: https://github.com/polykit/kicad
+
+Wavefolder: https://www.elby-designs.com/webtek/cgs/cgs52/cgs52_folder.html
